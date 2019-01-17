@@ -6,8 +6,8 @@ incre = 50;
 
 filename = '49grid/49grid';
 %% run simulation
-% uncomment below to run simulation further
-%LDCF_ND(filename,1,1727,incre,49,15000,1e-3,500) 
+% uncomment below to run simulation further from node 100
+%LDCF_ND(filename,1,100,incre,49,15000,1e-3,500) 
 
 %% run plotting
 % specify starting node and final node
