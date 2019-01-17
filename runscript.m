@@ -12,6 +12,6 @@ filename = '49grid/49grid';
 %% run plotting
 % specify starting node and final node
 % example given is a simulation ran with Re=15000, dt=1e-3, N=49
-node_start = 100; node_final = 1700;
-plotincre = 100;
+node_start = 1; node_final = 100;
+plotincre = 1;
 LDCF_plot(filename,node_start,node_final,plotincre,incre)
